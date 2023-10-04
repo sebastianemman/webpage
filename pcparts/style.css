@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(PCpartsBg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+}
+
+.Header{
+    color: bisque;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    color: bisque;
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin-left: 100px;
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid bisque;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: bisque;
+    border: 2px solid bisque;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color: white;
+    float: left;
+    padding-left: 200px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: bisque;
+    margin-top: 2%;
+}
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 2%;
+    padding-bottom: 10px;
+}
+.image img{
+    size: 100%;
+}
+
+.hello img{
+    width: 250px;
+    height: 200px;
+    border: none;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%);
+    border-radius: 10px;
+    padding: 25px;
+    position:relative;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: bisque;
+    font-size: 22px;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.form link:hover{
+    color: bisque;
+}
+
+.hellome{
+    width: 250px;
+    padding-top: 20px;
+    border-radius: 50px;
+}
+
+.form p{
+    text-align: center;
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icons a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.icons ion-icon{
+    color: bisque;
+    font-size: 50px;
+    transition: 0.5 ease-in-out;
+    
+}
+
+.icons ion-icon:hover{
+    color: white;
+}
+
+.icons{
+    padding-left: 1000px;
+    padding-top: 50px;
+}
+
+.copyright{
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+    
+}
